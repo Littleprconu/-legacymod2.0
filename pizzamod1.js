@@ -9,7 +9,7 @@ sheets:0,
 func:function()
 {
 new G.Unit({
-		name:'Pizza Makers',
+		name:'Pizza Maker',
 		desc:'@Makes extremly tasty [Pizza]s out of [seafood] and [herb]s.',
 		icon:0,
 		cost:{},
@@ -36,8 +36,8 @@ new G.Res({
 		category:'food',
 	});
   new G.Tech({
-		name:'Pizza',
-		desc:'@Unlocks [Pizza Makers]s. Pizza makers can make pizza out of [herb]s and [seafood]',
+		name:'Pizza Cooking',
+		desc:'@Unlocks [Pizza Makers]s. Pizza makers can make [Pizza] out of [herb]s and [seafood]',
 		icon:0,
 		cost:{'insight':20},
 		req:{'cooking':true},
